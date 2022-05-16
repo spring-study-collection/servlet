@@ -12,4 +12,9 @@ public class ServletApplication {
 		SpringApplication.run(ServletApplication.class, args);
 	}
 
+	//springboot가 InternalResourceViewResolver 라는 view resolver를 자동으로 등록
+//	@Bean
+//	ViewResolver internalResourceViewResolver() {
+//		return new InternalResourceViewResolver("/WEB-INF/views/", ".jsp");
+//	}
 }
